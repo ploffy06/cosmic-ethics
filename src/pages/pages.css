@@ -1,0 +1,51 @@
+.landing {
+    position: relative;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.landing-leave {
+    transition: all 2s ease;
+}
+
+.landing-image {
+    position: absolute;
+    top: 20%;
+    right: 7.5%;
+    width: 80%;
+    z-index: -1;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    max-width: 40%;
+    font-size: 1.25rem;
+}
+
+.content > p1 {
+    font-weight: 300;
+}
+
+.fade-enter {
+    opacity: 0;
+  }
+
+  .fade-enter-active {
+    opacity: 1;
+    transition: opacity 300ms ease-in;
+  }
+
+  .fade-exit {
+    opacity: 1;
+  }
+
+  .fade-exit-active {
+    opacity: 0;
+    transition: opacity 300ms ease-out;
+  }
