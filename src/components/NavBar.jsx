@@ -9,15 +9,17 @@ import Typography from '@mui/material/Typography';
 import { GiSolarSystem } from "react-icons/gi";
 import { IconContext } from "react-icons";
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
+import HelpOutlineIcon from '@mui/icons-material/HelpOutline';
 
 const NavBar = () => {
-    const pages = ["Incentive", "Space", "Terraforming", "Timeline"]
+    const pages = ["A-10",  "A-11", "A-12"]
     const nav = useNavigate()
 
     const handleNavClick = (page) => {
-        console.log(page)
-        if (page === 'Home') {
-            nav('/')
+        if (page === "A-10") {
+            nav('/A10')
+        } else if (page === "A-11") {
+            nav('/A11')
         } else {
             nav(`/${page}`)
         }
@@ -41,7 +43,7 @@ const NavBar = () => {
                     <GiSolarSystem style={{ marginRight: "10px", marginLeft: "-10px" }} />
                 </IconContext.Provider>
                 <Typography
-                    onClick={() => handleNavClick('Home')}
+                    onClick={() => handleNavClick('')}
                     variant="h6"
                     noWrap
                     component="div"
@@ -64,6 +66,13 @@ const NavBar = () => {
                         {page}
                     </Button>
                 ))}
+                <Button
+                        sx={{ margin: "10px" }}
+                        onClick={() => handleNavClick('About')}
+                        color="inherit"
+                        endIcon={<HelpOutlineIcon />}
+                    >
+                </Button>
             </Toolbar>
             </AppBar>
         </Box>

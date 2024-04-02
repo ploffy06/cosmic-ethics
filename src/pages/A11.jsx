@@ -10,8 +10,8 @@ const Space = () => {
 
   return (
     <div className='space'>
-        <h1>Explore Universe 2.0</h1>
-        <div className='space-underline'></div>
+        <h1>Universe A-11: The Aurora Mission Tragedy</h1>
+        <div className='underline'></div>
         <div className='universe-container'>
           <EarthModal />
         </div>

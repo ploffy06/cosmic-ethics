@@ -39,8 +39,39 @@
   margin-right: 100px;
 }
 
+/* UNIVERSE A-10 */
+.a10-page {
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  display: flex;
+  align-self: start;
+  flex-direction: column;
+}
+
+.a10-page > h1 {
+  text-align: center;
+}
+
+.timeline {
+  display: flex;
+}
+
+.timeline-slider {
+  height: 70vh;
+  margin-top: 5vh;
+  /* border: 1px solid red; */
+}
+
+.a10-events {
+  margin-left: 10vw;
+  margin-top: 10vh
+}
+
+
+/* UNIVERSE A-11 */
 .space {
-  margin-top: 75px;
+  margin-top: 20px;
   margin-left: 100px;
   margin-right: 100px;
   display: flex;
@@ -52,12 +83,6 @@
   text-align: center;
 }
 
-.space-underline {
+.underline {
   border: 1px solid white;
-}
-
-.universe-container {
-  /* border: 1px solid white; */
-  /* height: 100vh;
-  width: 90vw; */
 }

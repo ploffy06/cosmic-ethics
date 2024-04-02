@@ -3,9 +3,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import NavBar from './components/NavBar';
 import Landing from './pages/Landing';
 import About from './pages/About';
-import Incentive from './pages/Incentive';
-import Space from './pages/Space';
-import Timeline from './pages/Timeline';
+import A10 from './pages/A10';
+import A11 from './pages/A11';
 
 function App() {
 	return (
@@ -14,9 +13,8 @@ function App() {
         <Routes>
             <Route path="/" element={<Landing />} />
             <Route path="/About" element={<About />} />
-            <Route path="/Incentive" element={<Incentive />} />
-            <Route path="/Space" element={<Space />} />
-            <Route path="/Timeline" element={<Timeline />} />
+            <Route path="/A11" element={<A11 />} />
+            <Route path="/A10" element={<A10 />} />
         </Routes>
 		</BrowserRouter>
 	);
