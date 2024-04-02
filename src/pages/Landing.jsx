@@ -20,10 +20,10 @@ const Landing = () => {
 
                 <div className="content">
                     <p>
-                        The prospect of space travel and becoming an interplanetary species sparked the curiosity in the recent decades
+                        The prospect of space travel and becoming an interplanetary has species sparked curiosity in the recent decades
                         of technological development. As we reach beyond the confines of Earth's atmosphere...
                     </p>
-                    <p1>Can we simply conquer space and exploit new worlds?</p1>
+                    <h1>Can we simply conquer space and exploit new worlds?</h1>
                     <Button
                         sx={{ color: "white", marginTop: "40px" }}
                         onClick={handleClick}

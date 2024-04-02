@@ -1,1 +1,4 @@
-- image on landing page changes positions and it will persist
+- organise location of universe items
+- add a "?" next to "Explore Universe 2.0" to explain what universe 2.0 is
+
+
