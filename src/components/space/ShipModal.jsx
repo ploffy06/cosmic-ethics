@@ -5,10 +5,9 @@ import Modal from '@mui/material/Modal';
 import Grow from '@mui/material/Grow';
 import CloseIcon from '@mui/icons-material/Close';
 import './Modal.css'
-import earth from '../../assets/earth.png';
-import Tooltip from '@mui/material/Tooltip';
+import ship from '../../assets/ship.png';
 
-const EarthModal = () => {
+const ShipModal = () => {
     const [open, setOpen] = useState(false);
 
     const handleOpen = () => setOpen(true);
@@ -21,13 +20,16 @@ const EarthModal = () => {
             </Button>
             <div className="modal-item">
                 <div className="modal-details">
-                <img src={earth} className="modal-icon" />
+                <img src={ship} className="modal-icon-ship"/>
                 <div className="modal-text">
-                    <h1>Planet Earth</h1>
+                    <h1>Generation Ship</h1>
                     <p>
-                        Our home planet.
-                        Humans of this universe chose to embark on a mission to terraform a far-away Earth analogue planet. There
-                        was no "actual" reason aside from the pursuit and curiosity.
+                        A ship designed many years, potentially past 300 years. The purpose is to travel to far-away worlds that
+                        are light years away. Inhabitants will be born and die on this ship so that eventually, the species will
+                        be able to colonize a new planet.
+                    </p>
+                    <p>
+                        However, there is a major problem surrounding consent.
                     </p>
                 </div>
             </div>
@@ -36,9 +38,8 @@ const EarthModal = () => {
     );
 
     return (
-        <div className="earth" sx={{ height: 300 }}>
-            <Button onClick={handleOpen} className="modal-button"><img src={earth} className="earth-image"/></Button>
-
+        <div className="earth">
+            <Button className="modal-button" onClick={handleOpen}><img src={ship} className="ship-image"/></Button>
             <Modal open={open} onClose={handleClose} className="modal-container">
                 <Box id='modal-box'>
                     <Grow in={open}>{icon}</Grow>
@@ -49,4 +50,4 @@ const EarthModal = () => {
     )
 }
 
-export default EarthModal;
+export default ShipModal;

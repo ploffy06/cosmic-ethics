@@ -1,7 +1,9 @@
 import * as React from 'react';
 import EarthModal from '../components/space/EarthModal';
+import ShipModal from '../components/space/ShipModal';
+import PlanetModal from '../components/space/PlanetModal';
 
-const Space = () => {
+const A11 = () => {
   const [checked, setChecked] = React.useState(false);
 
   const handleChange = () => {
@@ -10,13 +12,16 @@ const Space = () => {
 
   return (
     <div className='space'>
-        <h1>Universe A-11: The Aurora Mission Tragedy</h1>
+        <h1>Universe A-11 (A Sneak Peak)</h1>
+        <p>Click around Space to learn about Mission Aurora</p>
         <div className='underline'></div>
         <div className='universe-container'>
-          <EarthModal />
+          <EarthModal className="earth-modal"/>
+          <ShipModal className="ship-modal"/>
+          <PlanetModal className="planet-modal"/>
         </div>
     </div>
   );
 }
 
-export default Space;
+export default A11;

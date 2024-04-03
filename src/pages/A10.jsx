@@ -16,12 +16,32 @@ const A10 = () => {
         label: '2050',
         },
         {
-        value: 50,
-        label: '2500',
+        value: 8,
+        label: '2075',
         },
         {
-        value: 100,
-        label: '3000',
+        value: 16,
+        label: '2100',
+        },
+        {
+        value: 40,
+        label: '2175',
+        },
+        {
+        value: 48,
+        label: '2200',
+        },
+        {
+        value: 56,
+        label: '2225',
+        },
+        {
+        value: 72,
+        label: '2272',
+        },
+        {
+        value: 96,
+        label: '2375',
         },
     ];
 
@@ -44,7 +64,8 @@ const A10 = () => {
     )
     return (
         <div className='a10-page'>
-        <h1>Universe A-10</h1>
+        <h1>Universe A-10 (A Sneak Peak)</h1>
+        <p>Slide along the timeline to learn about the history of this world</p>
         <div className='underline'></div>
         <div className='timeline'>
             <Box className='timeline-slider'>

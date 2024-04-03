@@ -20,6 +20,8 @@ const NavBar = () => {
             nav('/A10')
         } else if (page === "A-11") {
             nav('/A11')
+        } else if (page === "A-12") {
+            nav('/A12')
         } else {
             nav(`/${page}`)
         }

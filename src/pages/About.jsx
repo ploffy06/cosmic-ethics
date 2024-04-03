@@ -11,15 +11,15 @@ const About = () => {
             <h1>Universe A-10</h1>
             <p>
                 The same universe as ours, only that in the year 2050 the population surpasses 10 billion causing major stress on the limitted
-                resources on Earth. What should humanity do?
+                resources on Earth.
             </p>
             <h1>Universe A-11</h1>
             <p>
-                The same laws of physics as ours but a completely different world. In this universe, you will learn about Mission Aurora.
+                A world where humans have embarked on a mission to colonise a new far-away planet.
             </p>
             <h1>Universe A-12</h1>
             <p>
-                The same as Universe A-12 but a different outcome for Mission Aurora.
+                A utopia universe where humans have successfully terraformed a planet and live happily.
             </p>
         </div>
     )
