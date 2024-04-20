@@ -36,10 +36,6 @@ const A10 = () => {
         label: '2225',
         },
         {
-        value: 72,
-        label: '2272',
-        },
-        {
         value: 96,
         label: '2375',
         },

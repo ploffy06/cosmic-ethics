@@ -9,7 +9,9 @@ export const TimelineData = {
         `,
         moral_duties: `
             What actions must we take to ensure the survival of the population while ensuring the balance between
-            the preservation of the current generation and survival of future generations.
+            the preservation of the current generation and survival of future generations. The primary focus surrounds resource allocation as well
+            as the conservation of resources. Perhaops new laws and regulations  on the distrubution and usage of resources will have to be put into
+            place. Yet, may disrupt business markets which in turn causes social outcry.
         `
     },
     8: {
@@ -36,6 +38,8 @@ export const TimelineData = {
         `,
         moral_duties: `
             Should space deserve more funding, and if so how would we justify the immense cost of venturing into the unknown while many suffer on Earth?
+            We should also acknowledge the global cooporation that space travel is able to bring. Though the time is tough, space travel is  exciting and a
+            symbol of hope.
         `
     },
     40: {
@@ -49,7 +53,8 @@ export const TimelineData = {
         `,
         moral_duties: `
             With a new technology and power to travel at a high speed that will allow the first step towards becoming an interplanetary species and potentially save humanity,
-            is it our obligation to use this technology?
+            is it our obligation to use this technology? Additionally, the technology also requires  resources which may have  dire environmental impact on the already
+            damaged bioecosystems.
         `,
     },
     48: {
@@ -57,9 +62,12 @@ export const TimelineData = {
         events: `
             Construction of a Generation Ship heading towards a far-away Earth Analogue planet begins and applications to who would want to join the first expedition are sent out.
             There is outrage among the public as it means some individuals will be able to live a prosperous life off-planet while many others will suffer on Earth.
+            The crowds grow more angry when they learn that construction has also caused severe environmental impacts on the planet.
         `,
         moral_duties: `
-            Now that we have arrived at this point, how can we determine who gets to board the generation ship?
+            Now that we have arrived at this point, how can we determine who gets to board the generation ship? it would make sense to bring those that are considered the 'best' and
+            more 'highly likely' to succeed on their mission. Yet, how is that fair as  not everyone has had the oppurtunity to have access to education. Moreover, how is it
+            fair to individuals who were directly impacted by the damage that the construction  of the ship incurred if they are not able to board the ship.
         `
     },
     56: {
@@ -71,19 +79,9 @@ export const TimelineData = {
             they also can't help but feel a sense of discomfort and injustice as it could of easily been anyone else but them on the ship.
         `,
         moral_duties: `
-            How do we decide who get's to go. Especially in a situation where Earth is suffering.
-        `
-    },
-    72: {
-        title: "2275: A New Generation",
-        events: `
-            A new generation of inhabitants are born on the Generation Ship. They only know of Earth through books, films and talk but have never lived beyond the artificial confines
-            of the ship.
-        `,
-        moral_duties: `
-            how do we ensure these people live good lives. What is a life worth living? If it is soley based on the comparison
-            of an average human life, then the current average human life on Earth at this time is horrible.
-
+            Those who take the responsibility of embarking on space travel need to understand what it is they represent. That is the importance of why diversity of the chosen  individuals
+            are required as they will be carrying the legacy of the human race off Earth. If space travel brings this amount of unity,  then perhaps the obligation for our future generations and
+            the survival of the human race does matter more than the current generations.
         `
     },
     96: {
@@ -92,8 +90,11 @@ export const TimelineData = {
             After centuries, The Generation Ship has landed on a new planet
         `,
         moral_duties: `
-            Will these people ever experience planet Earth. Is it right of they can't? There will be new generations born on this planet and it will
-            be their home.
+            Will these people ever experience planet Earth. Is it right if they can't? There will be new generations born on this planet and it will
+            be their home. On Earth, it is important that we preserve tradition cultural identity across generations. Should the inhabitants of this new planet
+            also preserve the identity of Earth? Yes. It is instrumental to preserve the history of Earth to reflect on the past and not repeat the same  mistakes.
+            History can be subjective. Should the individuals on this planet learn to strive for space travel  or learn to strive to  preserve the curernt generations
+            humanity?
         `
     }
 }
