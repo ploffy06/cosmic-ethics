@@ -12,8 +12,8 @@ const A11 = () => {
 
   return (
     <div className='space'>
-        <h1>Universe A-11 (A Sneak Peak)</h1>
-        <p>Click around Space to learn about Mission Aurora</p>
+        <h1>Universe A-11</h1>
+        <p>Click Around Space To Learn About Mission Aurora</p>
         <div className='underline'></div>
         <div className='universe-container'>
           <EarthModal className="earth-modal"/>

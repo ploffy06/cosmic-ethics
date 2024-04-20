@@ -25,9 +25,8 @@ const EarthModal = () => {
                 <div className="modal-text">
                     <h1>Planet Earth</h1>
                     <p>
-                        Our home planet.
-                        Humans of this universe chose to embark on a mission to terraform a far-away Earth analogue planet. There
-                        was no "actual" reason aside from the pursuit and curiosity.
+                        In the name of science and engineering, individuals across the planet of this Universe chose to embark on space travel
+                        with  the prospect of becoming an  interplanetary species.
                     </p>
                 </div>
             </div>

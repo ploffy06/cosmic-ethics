@@ -64,8 +64,8 @@ const A10 = () => {
     )
     return (
         <div className='a10-page'>
-        <h1>Universe A-10 (A Sneak Peak)</h1>
-        <p>Slide along the timeline to learn about the history of this world</p>
+        <h1>Universe A-10</h1>
+        <p>Slide Along The Timelines And Learn About The History Of This Universe</p>
         <div className='underline'></div>
         <div className='timeline'>
             <Box className='timeline-slider'>

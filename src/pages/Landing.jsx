@@ -20,7 +20,7 @@ const Landing = () => {
 
                 <div className="content">
                     <p>
-                        The prospect of space travel and becoming an interplanetary has species sparked curiosity in the recent decades
+                        The prospect of space travel and becoming an interplanetary species has sparked curiosity in the recent decades
                         of technological development. As we reach beyond the confines of Earth's atmosphere...
                     </p>
                     <h1>Can we simply conquer space and exploit new worlds?</h1>
