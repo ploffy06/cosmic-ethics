@@ -24,12 +24,20 @@ const ShipModal = () => {
                 <div className="modal-text">
                     <h1>Generation Ship</h1>
                     <p>
-                        A ship designed many years, potentially past 300 years. The purpose is to travel to far-away worlds that
-                        are light years away. Inhabitants will be born and die on this ship so that eventually, the species will
-                        be able to colonize a new planet.
+                        A generation ship is designed for long distant travel of light years meaning that it would
+                        carry life on the ship for over centuries. This means there would be some individuals who are
+                        born and  die on this ship.
                     </p>
                     <p>
-                        However, there is a major problem surrounding consent.
+                        A major comes with the problem of consent, as it was only the first generation that consented to
+                        being on such ship. That said, no one ever consents to being born or being born where they are.
+                        What matters more is the  quality of life they are able to live. McMahan believes that a life worth living
+                        is something internal and what the individual believes to be of sufficient value.
+                    </p>
+                    <p>
+                        By first ensuring that basic necessaties of human rights such as food, water, sanitation and healthcare and then
+                        analysing statistics on what  makes a human 'happy', we will be able to ensure with high probability that individuals aboard
+                        such a ship will have a life worth living.
                     </p>
                 </div>
             </div>

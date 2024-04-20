@@ -15,7 +15,10 @@ const A12 = () => {
         <div style={{ padding: '10px' }}></div>
         {
             CharacterData.map((character, index) =>
-            <Accordion defaultExpanded sx={{ backgroundColor: '#1d1d1d', color: 'white', border: '1px solid white' }}>
+            <Accordion
+                defaultExpanded
+                sx={{ backgroundColor: '#1d1d1d', color: 'white', border: '1px solid white', fontSize: '0.75' }}
+            >
                 <AccordionSummary expandIcon={<ExpandMoreIcon sx={{ color: 'white' }}/>}>
                     <strong>{character.name} (born {character.date})</strong>
                 </AccordionSummary>

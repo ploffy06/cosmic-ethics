@@ -25,6 +25,15 @@ const EarthModal = () => {
                     <h1>Earth Analogue Planet</h1>
                     <p>
                         A planet 11 light years away from Earth with water to support life.
+                        This is the planet that humans aim terraform. Upon arrival to this planet, one of the first things
+                        to take into considertion is whether or not humans can sufficiently survive on this  planet. What if there
+                        are biological beings that are dangerous to humans but so  small that we cannot see them. This causes a risk
+                        of death, and to further this it is a risk of death  to someone to wgi did not even consent to being put into a situation
+                        of having to step foot onto a new planet.
+                    </p>
+                    <p>
+                        Though we cannot fully prevent this, we can mitigate the risk through technology such as a spacesuit that will defend against small
+                        living organisms and robots that will be the ones to first visit the planet to gather data on it.
                     </p>
                 </div>
             </div>
