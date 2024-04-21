@@ -26,7 +26,9 @@ const EarthModal = () => {
                     <h1>Planet Earth</h1>
                     <p>
                         In the name of science and engineering, individuals across the planet of this Universe chose to embark on space travel
-                        with  the prospect of becoming an  interplanetary species.
+                        with  the prospect of becoming an  interplanetary species. The need to pursue speaks to a human's desire for growth and to
+                        exist beyond the cradle they were born in. It speaks to humanity's will to continue on as a species and constantly pursue
+                        'more'.
                     </p>
                 </div>
             </div>

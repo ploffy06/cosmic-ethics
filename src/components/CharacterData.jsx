@@ -29,13 +29,13 @@ export const CharacterData = [
 
             Every night, I  look out my window  and gaze into the night sky scattered with many stars. My generation was born  to terraform the planet
             and create a new human civilization. We were made sure to have happy childhoods and a good education to eventually take a  questionaire that determinted
-            where we belonged. For me, it was on a farm and I hvae always felt belonging with Farm Fredrick who has treated me with nothing but kindness and fatherly
-            love. I wonder if starts had any purpose like we did in the vastness of the black abyss? Stars seem to  simply exists and serve  no role or  purpose nor does it
-            do anything to help other stars. What sort  of place does a star have in the universe?
+            where we belonged. For me, it was on a farm and I have always felt belonging with farmer Fredrick who has treated me with nothing but kindness and fatherly
+            love. I wonder if stars had any purpose like we did in the vastness of the black abyss? Stars seem to  simply exists and serve  no role or purpose nor does it
+            do anything to help other stars. What sort of place does a star have in the universe?
         `
     },
     {
-        name: 'Jennifer of Aurora',
+        name: 'Peach of Aurora',
         date: 3214,
         details: `
             I did not ask to be born on Aurora and take a mere quiz to determine the fate of the rest of my life. I want freedom and individuality. I want to be an explorer of the
@@ -50,9 +50,10 @@ export const CharacterData = [
     },
     {
         name: 'Titanium 5 of Aurora',
-        date: 3289,
+        date: 3389,
         details: `
-            The outsiders arrived a month ago claiming they came from planet Earth and wished to exist with us. We have plentiful resources, but not enough to serve two million new humans.
+            The outsiders arrived a month ago claiming they came from planet Earth and wished to exist with us. We have plentiful resources, but not enough to serve two million new humans and the billions
+            they said would come.
             The demanded that from human to human we must coorporate. We understand and we sympathize, but we simply do not have enough resources and it is the people of Aurora that will come
             before the people of Earth. We told them  to go home back to their planet. A man on our planet was shot. I do not understand why. The Earth people left and said that they would be back.
 
